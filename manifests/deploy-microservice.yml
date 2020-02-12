@@ -57,7 +57,7 @@ spec:
     rules:
         -   http:
                 paths:
-                    -   path: /teama(/|$)(.*)
+                    -   path: /powerful-strategy(/|$)(.*)
                         backend:
                             serviceName: powerful-strategy-microservice-service
                             servicePort: 30201
